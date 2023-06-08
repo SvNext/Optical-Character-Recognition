@@ -1,0 +1,10 @@
+1) Send Request to Bot
+
+    1) Create Bot
+    2) Incoming Webhook Handler підправити
+    3) Копіюємо Incoming Webhook Endpoint для бота, генеруємо Webhook Token та створюємо посилання:
+        https://cliq.zoho.com/api/v2/bots/{bot_unique_name}/incoming?zapikey=<paste_webhook_token_here>
+        Incoming Webhook Endpoint?zapikey=Webhook Token
+
+
+2) 
