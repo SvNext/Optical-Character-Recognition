@@ -94,4 +94,4 @@ async def images_to_json_get(images: Images):
 
 
 if __name__ == '__main__':
-    uvicorn.run("server:app", port=int(os.environ['SERVER_PORT']), log_level="info")
+    uvicorn.run("server:app", port=int(os.environ['PORT']), log_level="info")
